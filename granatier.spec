@@ -2,7 +2,7 @@ Summary:	KDE Bomberman game
 Name:		granatier
 Epoch:		1
 Version:	4.14.3
-Release:	1
+Release:	2
 Group:		Graphical desktop/KDE
 License:	GPLv2 and LGPLv2 and GFDL
 Url:		http://www.kde.org/applications/games/granatier/
