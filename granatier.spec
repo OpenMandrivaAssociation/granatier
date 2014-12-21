@@ -1,7 +1,7 @@
 Summary:	KDE Bomberman game
 Name:		granatier
 Epoch:		1
-Version:	4.14.3
+Version:	14.12.0
 Release:	2
 Group:		Graphical desktop/KDE
 License:	GPLv2 and LGPLv2 and GFDL
@@ -34,8 +34,8 @@ of the Clanbomber clone.
 %makeinstall_std -C build
 
 %changelog
-* Tue Nov 11 2014 Andrey Bondrov <andrey.bondrov@rosalab.ru> 1:4.14.3-1
-- New version 4.14.3
+* Tue Nov 11 2014 Andrey Bondrov <andrey.bondrov@rosalab.ru> 1:14.12.0-1
+- New version 14.12.0
 
 * Wed Oct 15 2014 Andrey Bondrov <andrey.bondrov@rosalab.ru> 1:4.14.2-1
 - New version 4.14.2
