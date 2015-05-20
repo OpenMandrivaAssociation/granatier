@@ -11,6 +11,7 @@ Url:		http://www.kde.org/applications/games/granatier/
 Source0:	ftp://ftp.kde.org/pub/kde/%{stable}/applications/%{version}/src/%{name}-%{version}.tar.xz
 BuildRequires:	libkdegames-devel
 BuildRequires:	cmake(KF5NotifyConfig)
+BuildRequires:	cmake(ECM)
 
 %description
 Granatier is a clone of the classic Bomberman game, inspired by the work
@@ -30,10 +31,10 @@ of the Clanbomber clone.
 
 %prep
 %setup -q
+%cmake_kde5
 
 %build
-%cmake -G Ninja
-ninja
+%ninja -C build
 
 %install
-DESTDIR="%{buildroot}" ninja -C build install
+%ninja_install -C build
