@@ -1,2 +1,4 @@
-sources:
+removed_sources:
   granatier-15.08.0.tar.xz: 754ad670d6b278d671a65bbf773b4b08840583e4
+sources:
+  granatier-15.08.1.tar.xz: 5903d3b4617ded5eb62f5aae463068d7cc9f2f49
