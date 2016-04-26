@@ -3,12 +3,12 @@
 Summary:	KDE Bomberman game
 Name:		granatier
 Epoch:		1
-Version:	15.12.3
+Version:	16.04.0
 Release:	1
 Group:		Graphical desktop/KDE
 License:	GPLv2 and LGPLv2 and GFDL
 Url:		http://www.kde.org/applications/games/granatier/
-Source0:	ftp://ftp.kde.org/pub/kde/%{stable}/applications/%{version}/src/%{name}-%{version}.tar.xz
+Source0:	http://download.kde.org/%{stable}/applications/%{version}/src/%{name}-%{version}.tar.xz
 BuildRequires:	libkdegames-devel
 BuildRequires:	cmake(KF5NotifyConfig)
 BuildRequires:	cmake(ECM)
@@ -23,7 +23,7 @@ of the Clanbomber clone.
 
 %files
 %{_bindir}/granatier
-%{_datadir}/appdata/granatier.appdata.xml
+%{_datadir}/appdata/org.kde.granatier.appdata.xml
 %{_datadir}/applications/org.kde.granatier.desktop
 %{_datadir}/granatier
 %{_datadir}/config.kcfg/granatier.kcfg
