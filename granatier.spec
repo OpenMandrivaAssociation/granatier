@@ -16,6 +16,9 @@ BuildRequires:	cmake(KF5CoreAddons)
 BuildRequires:	cmake(KF5Config)
 BuildRequires:	cmake(KF5KDEGames)
 BuildRequires:	cmake(KF5DocTools)
+BuildRequires:	cmake(KF5Crash)
+BuildRequires:	cmake(Qt5Qml)
+BuildRequires:	cmake(Qt5Quick)
 
 %description
 Granatier is a clone of the classic Bomberman game, inspired by the work
