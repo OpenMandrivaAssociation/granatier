@@ -26,7 +26,7 @@ of the Clanbomber clone.
 
 %files
 %{_bindir}/granatier
-%{_datadir}/appdata/org.kde.granatier.appdata.xml
+%{_datadir}/metainfo/org.kde.granatier.appdata.xml
 %{_datadir}/applications/org.kde.granatier.desktop
 %{_datadir}/granatier
 %{_datadir}/config.kcfg/granatier.kcfg
