@@ -3,7 +3,7 @@
 Summary:	KDE Bomberman game
 Name:		granatier
 Epoch:		1
-Version:	17.03.80
+Version:	17.04.0
 Release:	1
 Group:		Graphical desktop/KDE
 License:	GPLv2 and LGPLv2 and GFDL
@@ -24,13 +24,12 @@ BuildRequires:	cmake(Qt5Quick)
 Granatier is a clone of the classic Bomberman game, inspired by the work
 of the Clanbomber clone.
 
-%files
+%files -f granatier.lang
 %{_bindir}/granatier
 %{_datadir}/metainfo/org.kde.granatier.appdata.xml
 %{_datadir}/applications/org.kde.granatier.desktop
 %{_datadir}/granatier
 %{_datadir}/config.kcfg/granatier.kcfg
-%{_docdir}/*/*/granatier
 %{_iconsdir}/*/*/apps/granatier.*
 %{_datadir}/kxmlgui5/granatier
 
@@ -45,3 +44,4 @@ of the Clanbomber clone.
 
 %install
 %ninja_install -C build
+%find_lang granatier --with-html
