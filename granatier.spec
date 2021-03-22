@@ -3,7 +3,7 @@
 Summary:	KDE Bomberman game
 Name:		granatier
 Epoch:		1
-Version:	20.12.3
+Version:	21.03.80
 Release:	1
 Group:		Graphical desktop/KDE
 License:	GPLv2 and LGPLv2 and GFDL
@@ -40,7 +40,6 @@ of the Clanbomber clone.
 %{_datadir}/granatier
 %{_datadir}/config.kcfg/granatier.kcfg
 %{_iconsdir}/*/*/apps/granatier.*
-%{_datadir}/kxmlgui5/granatier
 
 #------------------------------------------------------------------------------
 
