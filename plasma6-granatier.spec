@@ -9,7 +9,6 @@ Group:		Graphical desktop/KDE
 License:	GPLv2 and LGPLv2 and GFDL
 Url:		http://www.kde.org/applications/games/granatier/
 Source0:	http://download.kde.org/%{stable}/release-service/%{version}/src/granatier-%{version}.tar.xz
-BuildRequires:	libkdegames-devel
 BuildRequires:	cmake(KF6NotifyConfig)
 BuildRequires:	cmake(ECM)
 BuildRequires:	cmake(KF6CoreAddons)
@@ -18,7 +17,7 @@ BuildRequires:	cmake(KF6WidgetsAddons)
 BuildRequires:	cmake(KF6I18n)
 BuildRequires:	cmake(KF6Config)
 BuildRequires:	cmake(KF6ConfigWidgets)
-BuildRequires:	cmake(KF6KDEGames)
+BuildRequires:	cmake(KDEGames6)
 BuildRequires:	cmake(KF6DocTools)
 BuildRequires:	cmake(KF6Crash)
 BuildRequires:	cmake(KF6XmlGui)
@@ -44,7 +43,7 @@ of the Clanbomber clone.
 #------------------------------------------------------------------------------
 
 %prep
-%autosetup -p1
+%autosetup -p1 -n granatier-%{version}
 %cmake \
 	-DKDE_INSTALL_USE_QT_SYS_PATHS:BOOL=ON \
 	-G Ninja
