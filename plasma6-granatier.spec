@@ -6,7 +6,7 @@
 Summary:	KDE Bomberman game
 Name:		plasma6-granatier
 Version:	24.02.0
-Release:	%{?git:0.%{git}.}1
+Release:	%{?git:0.%{git}.}2
 Group:		Graphical desktop/KDE
 License:	GPLv2 and LGPLv2 and GFDL
 Url:		http://www.kde.org/applications/games/granatier/
