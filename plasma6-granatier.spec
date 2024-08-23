@@ -5,7 +5,7 @@
 
 Summary:	KDE Bomberman game
 Name:		plasma6-granatier
-Version:	24.05.2
+Version:	24.08.0
 Release:	%{?git:0.%{git}.}1
 Group:		Graphical desktop/KDE
 License:	GPLv2 and LGPLv2 and GFDL
@@ -39,6 +39,7 @@ of the Clanbomber clone.
 
 %files -f granatier.lang
 %{_datadir}/qlogging-categories6/granatier.categories
+%{_datadir}/qlogging-categories6/granatier.renamecategories
 %{_bindir}/granatier
 %{_datadir}/metainfo/org.kde.granatier.appdata.xml
 %{_datadir}/applications/org.kde.granatier.desktop
