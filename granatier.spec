@@ -35,6 +35,8 @@ BuildRequires:	cmake(Qt6Svg)
 BuildSystem:	cmake
 BuildOption:	-DKDE_INSTALL_USE_QT_SYS_PATHS:BOOL=ON
 
+%rename plasma6-granatier
+
 %description
 Granatier is a clone of the classic Bomberman game, inspired by the work
 of the Clanbomber clone.
