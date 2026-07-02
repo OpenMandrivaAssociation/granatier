@@ -5,7 +5,7 @@
 
 Summary:	KDE Bomberman game
 Name:		granatier
-Version:	26.04.2
+Version:	26.04.3
 Release:	%{?git:0.%{git}.}1
 Group:		Graphical desktop/KDE
 License:	GPLv2 and LGPLv2 and GFDL
