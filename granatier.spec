@@ -5,7 +5,7 @@
 
 Summary:	KDE Bomberman game
 Name:		granatier
-Version:	26.04.3
+Version:	26.08.0
 Release:	%{?git:0.%{git}.}1
 Group:		Graphical desktop/KDE
 License:	GPLv2 and LGPLv2 and GFDL
@@ -33,6 +33,7 @@ BuildRequires:	cmake(Qt6Quick)
 BuildRequires:	cmake(Qt6Widgets)
 BuildRequires:	cmake(Qt6Svg)
 BuildSystem:	cmake
+BuildOption:	-DBUILD_PYTHON_BINDINGS:BOOL=OFF
 BuildOption:	-DKDE_INSTALL_USE_QT_SYS_PATHS:BOOL=ON
 
 %rename plasma6-granatier
